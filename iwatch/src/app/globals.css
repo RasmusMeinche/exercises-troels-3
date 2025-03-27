@@ -84,10 +84,14 @@ display: grid;
 grid-column: content;
 grid-template-columns: auto auto;
 align-items: center;
+margin-top: 4rem;
 }
 
 .hero-grid1 {
   color: white;
+  height: 70vh;
+  position: relative;
+  align-items: center;
   
   h1 {
     font-size: 4rem;
@@ -103,16 +107,16 @@ align-items: center;
     background-color: #B6CCDA;
     border-radius: 2rem;
     padding: 1rem 4rem;
-    border: white 2px solid;
+    border: white 3px solid;
     font-size: large;
     margin-top: 3rem
   }
 
-  p {
-    
-  }
 }
 
+p {
+  color: white;
+}
 .hero-grid2 {
   display: flex;
   align-items: center;
