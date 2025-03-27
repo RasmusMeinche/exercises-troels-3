@@ -1,31 +1,27 @@
+import { FiSearch } from "react-icons/fi";
+import { LuShoppingBag } from "react-icons/lu";
+
 export default function Headers() {
   return (
-    <header className="full-bleed">
-      <section>
+    <header>
+      <section className="header-info">
         <div>
-          <h1>AskExperts</h1>
+          <img src="/images/Logo.png" alt="" />
         </div>
-        <div>
-          <a href="/">Home</a>
-          <a href="/casestudy">Case Study</a>
-          <a href="/team">Team</a>
-          <a href="/about">About</a>
+        <div className="info-flexbox">
+          <a>Mac</a>
+          <a>Iphone</a>
+          <a>Ipad</a>
+          <a>iWatch</a>
+          <a>Support</a>
         </div>
-        <div>
-          <button>Login</button>
-        </div>
-
-        <div id="popup" popover>
-          <h2>Dashboard Login</h2>
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-
-          <button popovertarget="popup">Go to dashboard</button>
+        <div className="flex-box">
+        <FiSearch className="searh-icon"/>
+        <span>|</span>
+        <LuShoppingBag />
         </div>
       </section>
     </header>
   );
 }
+
