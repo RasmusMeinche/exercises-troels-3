@@ -83,7 +83,6 @@ header {
 display: grid;
 grid-column: content;
 grid-template-columns: auto auto;
-align-items: center;
 margin-top: 4rem;
 }
 
