@@ -1,3 +1,5 @@
+"use client"
+
 export default function ThreeDots() {
     return (
 
@@ -8,6 +10,5 @@ export default function ThreeDots() {
               <div className="line"></div>
               <span></span>
             </div>
-
     );
 }

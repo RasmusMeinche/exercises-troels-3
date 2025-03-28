@@ -1,8 +1,10 @@
+import { useState } from "react";
 import ThreeDots from "./ThreeDots";
 import ThreeWatches from "./ThreeWatches";
 
 
-export default function Hero() {
+const Hero = () => {
+  const [setMintWatch] = useState(true);
   return (
       <section className="hero">
         <div className="hero-content">
@@ -21,3 +23,4 @@ export default function Hero() {
   );
 }
 
+export default Hero;
