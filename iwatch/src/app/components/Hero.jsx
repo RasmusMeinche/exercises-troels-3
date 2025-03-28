@@ -1,3 +1,4 @@
+import ThreeWatches from "./ThreeWatches";
 
 
 export default function Hero() {
@@ -13,16 +14,8 @@ export default function Hero() {
             <img src="/images/watch.png" alt="Watch" />
             <img src="/images/ColorIndicator.png" alt="Watch" />
           </div>
-            <div className="three-watches">
-              <span></span>
-              <span></span>
-              <span></span>
-              <img src="/images/ur1.png" alt="small-watch-black" />
-              <img src="/images/ur2.png" alt="small-watch-green" />
-              <img src="/images/ur3.png" alt="small-watch-pink" />
-            </div>
-            <p>← 1 →</p>
         </div>
+          <ThreeWatches />
       </section>
   );
 }

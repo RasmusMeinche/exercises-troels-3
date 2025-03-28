@@ -113,6 +113,7 @@ margin-top: 4rem;
 
 }
 
+
 p {
   color: white;
 }
@@ -122,15 +123,13 @@ p {
 
 }
 .three-watches {
-  grid-column: 2;
-  justify-content: start;
-  display: flex;
+  grid-template-columns: subgrid;
+  grid-column: content;
+  display: grid;
   flex-direction: row;
   margin-top: 4rem;
-  position: relative;
-  margin-left: 50px;
-  gap: 4rem;
-
+  align-items: center;
+  
   span {
     position: absolute;
     width: 120px;
@@ -138,25 +137,38 @@ p {
     z-index: -1;
     border-radius: 0.5rem;
   }
+  .left {
+    grid-column: 1;
+    display: flex;
+  }
+  
+  .right{
+    position: relative;
+    grid-column: middle;
+    display: flex;
+    gap: 4rem;
+    grid-column: 2;
+    justify-content: center;
+}
 
-:first-child {
+span:first-child {
   position: absolute;
   top: 35%;
-  left: -3%;
+  left: 14%;
   background-color: #434558;
 }
 
-:nth-child(2) {
+span:nth-child(2) {
   background: #6ADDCC;
   position: absolute;
   top: 35%;
-  left: 27%;
+  left: 40%;
 }
-:nth-child(3) {
+span:nth-child(3) {
   background: #F9CDC4;
   position: absolute;
   top: 35%;
-  left: 58%;
+  left: 65%;
 }
 
 }
