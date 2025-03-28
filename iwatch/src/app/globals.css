@@ -172,3 +172,43 @@ span:nth-child(3) {
 }
 
 }
+
+.cirkel-indicator {
+  display: flex;
+  flex-direction: column;
+
+
+  span {
+    width: 30px;
+    height: 30px;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: white 3px solid;
+  }
+
+  :nth-child(1) {
+    background-color: #434558;
+  }
+  :nth-child(3) {
+    background-color: #6ADDCC;
+  }
+  :nth-child(5) {
+    background-color: #F9CDC4;
+  }
+
+  div {
+    align-self: center;
+  }
+
+  .line {
+                 width: 2px;
+              height: 30px;
+              background: repeating-linear-gradient(
+                to bottom,
+                white,
+                white 2px,
+                transparent 2px,
+                transparent 6px
+              );
+  }
+}
