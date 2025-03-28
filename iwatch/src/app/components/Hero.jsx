@@ -1,3 +1,4 @@
+import ThreeDots from "./ThreeDots";
 import ThreeWatches from "./ThreeWatches";
 
 
@@ -12,13 +13,7 @@ export default function Hero() {
           </div>
           <div className="hero-grid2">
             <img src="/images/watch.png" alt="Watch" />
-            <div className="cirkel-indicator">
-              <span></span>
-              <div className="line"></div>
-              <span></span>
-              <div className="line"></div>
-              <span></span>
-            </div>
+           <ThreeDots />
           </div>
         </div>
           <ThreeWatches />
