@@ -1,10 +1,12 @@
+"use client"
 import { useState } from "react";
 import ThreeDots from "./ThreeDots";
 import ThreeWatches from "./ThreeWatches";
 
 
 const Hero = () => {
-  const [setMintWatch] = useState(true);
+  const [mintWatch, setMintWatch] = useState(false);
+  const [oceanWatch, setOceanWatch] = useState(false);
   return (
       <section className="hero">
         <div className="hero-content">
