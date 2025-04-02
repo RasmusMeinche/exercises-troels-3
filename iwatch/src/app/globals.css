@@ -127,7 +127,6 @@ p {
   grid-column: content;
   display: grid;
   flex-direction: row;
-  margin-top: 4rem;
   align-items: center;
   
   span {
