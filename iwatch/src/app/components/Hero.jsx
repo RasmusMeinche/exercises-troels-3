@@ -10,7 +10,7 @@ function Hero() {
   };
 
   return (
-    <div className="grid grid-cols-[minmax(20px,0.2fr)_1fr_minmax(20px,0.2fr)] bg-[#B6CCDA]">
+    <div className="grid grid-cols-[minmax(20px,0.2fr)_1fr_minmax(20px,0.2fr)] bg-[#B6CCDA] h-screen">
       <section className="col-2 text-white">
         <div className="grid grid-cols-[auto_auto] mt-4">
           <div>
