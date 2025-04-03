@@ -1,5 +1,6 @@
 import { FiSearch } from "react-icons/fi";
 import { LuShoppingBag } from "react-icons/lu";
+import Link from "next/link";
 
 export default function Headers() {
   return (
@@ -13,7 +14,7 @@ export default function Headers() {
           <a>Mac</a>
           <a>Iphone</a>
           <a>Ipad</a>
-          <a>iWatch</a>
+          <Link href="/iwatch">iWatch</Link>
           <a>Support</a>
         </div>
         <div className="flex items-center gap-3">

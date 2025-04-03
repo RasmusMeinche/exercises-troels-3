@@ -14,7 +14,7 @@ function Hero () {
               <h2 className="text-7xl w-3xl leading-25 mt-4">Between Past and Future</h2>
               <button className="mt-8 text-2xl px-16 py-3 border-white border-3 rounded-full">Buy Now</button>
             </div>
-            <div className="col-2">
+            <div className="col-2 flex justify-centers items-center">
               <img className="w-full" src="/images/watch.png" alt="Watch" />
             <ThreeDots />
           </div>

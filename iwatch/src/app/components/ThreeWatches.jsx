@@ -1,6 +1,8 @@
+"use client";
+
 export default function ThreeWatches() {
     return (
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 items-center">
               <div>
                 <p className="left">← 1 →</p>
               </div>
