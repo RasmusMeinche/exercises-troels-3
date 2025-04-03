@@ -1,10 +1,10 @@
 export default function ThreeWatches() {
     return (
-            <div className="three-watches">
+            <div className="grid grid-cols-2">
               <div>
                 <p className="left">← 1 →</p>
               </div>
-                <div className="right">
+                <div className="flex justify-center gap-16 items-center">
                     <span></span>
                     <span></span>
                     <span></span>

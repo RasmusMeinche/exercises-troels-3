@@ -22,7 +22,7 @@
 
 /* Komponent css */
 
-body {
+/* body {
   background: var(--background);
   color: var(--foreground);
   background-color: #B6CCDA;
@@ -71,7 +71,7 @@ header {
   gap: 1rem;
 }
 
-/* Hero */
+/* Hero
 
 .hero {
   display: grid;
@@ -213,4 +213,4 @@ span:nth-child(3) {
                 transparent 6px
               );
   }
-}
+} */
